@@ -4,7 +4,7 @@ const express = require('express');
 const { OpenAI } = require('openai');
 const router = express.Router();
 
-const openai = new OpenAI({ apiKey: myAPIKWY});
+const openai = new OpenAI();
 
 router.get('/', (req, res)=>{
     console.log("hola")
