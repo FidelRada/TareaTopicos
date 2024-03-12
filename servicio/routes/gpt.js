@@ -3,9 +3,8 @@ const express = require('express');
 //const { GPT } = require('@openai/gpt-3');
 const { OpenAI } = require('openai');
 const router = express.Router();
-//const gpt = new GPT("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")
 
-const openai = new OpenAI({ apiKey: ""});
+const openai = new OpenAI({ apiKey: myAPIKWY});
 
 router.get('/', (req, res)=>{
     console.log("hola")
